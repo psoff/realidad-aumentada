@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:id="@+id/texto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_blue_light"
+        android:gravity="center_horizontal"
+        android:text="REALIDAD AUMENTADA"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#F6EEEE"
+        android:textSize="36sp"
+        android:textStyle="bold|italic"
+        android:verticalScrollbarPosition="defaultPosition"
+        android:visibility="visible" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/botcam"
+            style="@style/Widget.AppCompat.Button.Borderless.Colored"
+            android:layout_width="220dp"
+            android:layout_height="60dp"
+            android:layout_gravity="top"
+            android:layout_margin="80dp"
+            android:background="@android:color/holo_blue_dark"
+            android:text="CÁMARA"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textSize="36sp"
+            android:textStyle="bold|italic"
+            android:visibility="visible"
+            tools:ignore="RtlCompat" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/botayuda"
+            android:layout_width="200dp"
+            android:layout_height="60dp"
+            android:layout_margin="90dp"
+            android:background="@android:color/holo_blue_dark"
+            android:gravity="clip_vertical"
+            android:hapticFeedbackEnabled="false"
+            android:text="AYUDA"
+            android:textColor="#FFFFFF"
+            android:textAlignment="center"
+            android:textColorHint="#329CAA"
+            android:textColorLink="#348FB8"
+            android:textSize="38sp"
+            android:textStyle="bold|italic"
+            android:visibility="visible"
+            tools:ignore="RtlCompat"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="270dp"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/descripcion"
+            android:layout_width="309dp"
+            android:layout_height="216dp"
+            android:layout_margin="50dp"
+            android:ems="10"
+            android:gravity="center_horizontal"
+            android:inputType="textMultiLine"
+            android:text="Esta aplicación fue creada para escanear fotos en realidad aumentada con el fin de que la aplicación las reconozca y nos muestre el nombre que les corresponda. "
+            android:textSize="24sp"
+            android:visibility="invisible" />
+
+    </LinearLayout>
+
+</LinearLayout>
+
+
+
+
+
+
+
+
+
+
